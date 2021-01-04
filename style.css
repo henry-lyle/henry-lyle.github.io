@@ -1,118 +1,79 @@
 @charset "UTF-8";
 /* CSS Document */
-* {
-	margin: 0 ;
-	padding: 0;
+
+*{
+	margin: 0;
 }
 
 a {
-	color: black;
 	text-decoration: none;
+	color: black;
 }
 
-@media (max-width: 700px) {
-	.hamburger {
-		height: 1.2em;
-		width: auto;
-		align: right;
-		position:fixed;
-		right: 2em;
-		padding-top: 3.17em;
-		
-	}
-	.menu {
-		width: 100%;
-		padding: 2em 0;
-		margin: 0 auto;
-		
-	}
-	.left {
-		display: none
-	}
-	.right {
-		display: none
-	}
-	img {
-		width: 51%;
-		margin: 0;
-		padding-top: 2em;
-	}
-	.img_right {
-		float:right;
-	}
-	.small_img {
-		width: 120px;
-		padding-top: 0.5em;
-		padding-left: 1em;
-		padding-bottom: 0.5em;
-	}
-	.large_img {
-	width: 100%;
-	}
-	.about_img {
-		width: 80%;
-		margin:  5em 10% 0 10%;
-		
-	}
-	.text {
-		padding: 2em 2em;
-		font: 10pt helvetica, sans-serif;
-		text-align: left;
-		line-height: 1.5em
-	}
+h1 {
+	font: 35px Raleway , sans-serif;
 }
 
-h {	
-	font-family: 'Raleway', sans-serif;
-	font-weight: bold; 
-	font-size: 2em;
-	width: 100%;
-	padding: 1.9em 0;
-	margin: 0 auto;
-	position: absolute;
+h2 {
+	font: 20px Raleway , sans-serif;
+	text-decoration: underline;
+	padding-bottom: 20px;
 }
 
-.center {
+p {
+	font: 12pt "helvetica" , sans-serif ;
+	color: grey
+}
+
+.center_heading {
 	position: fixed;
+	top: 20px;
+	left: 0;
+	right: 0;
 	text-align: center;
+
 }
 
-.left {
-	text-align: left;
-	position:fixed;
-	text-decoration: underline;
-	left: 3em
-}
+main {
 	
-.right{
-	text-align: right;
-	position:fixed;
-	text-decoration: underline;
-	right: 3em
-}
- 	
-.content {
-	padding-top: 7em;
-	padding-bottom: 2em
+	margin: 100px 0 0 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: center;
 }
 
-.img_grid {
+img{
+	align-self: center;
+	width: 51%;
+	max-width: 200px;
+	margin-bottom: 50px;
+	margin-right: 30px;
+}
+
+img.large {
 	width: 100%;
+	max-width: 500px;
+	margin-right: 0px;
 }
 
-
-.link {
-	text-decoration: underline;
-	font:  12pt "Raleway", "helvetica", sans-serif;
-	text-align: center;
-	margin-bottom: 1em
-}
-
-.copyright {
-	font: 8pt helvetica, sans-serif;
-	color: grey;
-	text-align: center;
-	margin-bottom: 1em
+img.small {
+	width: 40%;
+	max-width: 150px;
+	margin-bottom: 50px;
+	margin-right: 10px
 	
 }
 
+img.small.top {
+	margin-bottom: 10px;
+}
+
+div.grid {
+}
+
+footer {
+	margin: 20px 0 10px 0 ;
+	text-align: center;
+}
+	
