@@ -34,6 +34,21 @@ p {
 
 }
 
+.fixed_left {
+	position: fixed;
+	transform: rotate(-90deg);
+	bottom: 40px;
+	left: 28px;
+}
+
+.fixed_right {
+	position: fixed;
+	transform: rotate(-90deg);
+	bottom: 150px;
+	left: 0px;
+}
+
+
 main {
 	
 	margin: 100px 0 0 0;
@@ -69,8 +84,6 @@ img.small.top {
 	margin-bottom: 10px;
 }
 
-div.grid {
-}
 
 footer {
 	margin: 20px 0 10px 0 ;
